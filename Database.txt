@@ -1,0 +1,13 @@
+To create the database run the following commands:
+
+create database hostel;
+
+use hostel;
+
+create table room(roomNumber varchar(50)primary key, activate varchar(50), roomStatus varchar(50));
+
+desc room;
+
+create table student(sName varchar(50), fName varchar(50), enrolNum varchar(50)primary key, course varchar(50), batch varchar(50), faculty varchar(50), dept varchar(50), mobileNum varchar(50), address varchar(50), roomNum varchar(50), status varchar(50));
+
+desc student;
